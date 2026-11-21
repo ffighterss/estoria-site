@@ -569,3 +569,64 @@ body { font-size: 20px; font-weight: 500; line-height: 1.6; }
 @media (max-width: 700px) { .medallion--lg { width: 96px; font-size: 52px; } }
 /* Рукописна літера зміщена всередині свого «рядка»; script.js рахує її реальні межі й ставить точно в центр кола */
 .medallion__glyph { display: block; }
+
+/* =====================================================================
+   ТЕЛЕФОН: щільніший ритм, кнопки на всю ширину, компактний прайс
+   ===================================================================== */
+@media (max-width: 820px) {
+  /* ритм секцій: менше порожнечі між блоками */
+  .head { padding: 76px var(--pad) 30px; gap: 18px; }
+  .services { padding-bottom: 40px; }
+  .service, .service--reverse { gap: 30px; padding: 34px var(--pad); }
+  .masters, .reviews { padding: 80px var(--pad); }
+  .works { padding-bottom: 90px; }
+  .visit { padding: 80px var(--pad) 96px; gap: 40px; }
+  .footer { padding: 72px var(--pad) 40px; }
+  .page-hero { padding: calc(var(--header) + 56px) var(--pad) 64px; }
+
+  /* арки з фото: вужчі й по центру, щоб фото не займало весь екран */
+  .window, .service--reverse .window { width: 76%; margin: 0 auto; transform: translateX(-9px); }
+  .service--reverse .window { transform: translateX(9px); }
+  .window--map { width: calc(100% - 18px); aspect-ratio: 1; transform: none; margin: 0; }
+  .service__text { max-width: none; }
+  .service__text > p { font-size: 19px; }
+  .list { margin: 20px 0 28px; }
+
+  /* кнопки в блоках — на всю ширину, однакові */
+  .hero__actions { display: grid; gap: 12px; width: 100%; max-width: 340px; margin-left: auto; margin-right: auto; }
+  .hero__actions .btn, .service__text .btn, .visit__actions .btn, .master .btn { width: 100%; justify-content: center; }
+  .visit__actions { display: grid; gap: 12px; }
+  .visit__list { grid-template-columns: 1fr 1fr; gap: 22px 18px; margin: 28px 0 32px; }
+  .visit__list div:first-child { grid-column: 1 / -1; }
+
+  /* відгуки на головній */
+  .reviews__card { padding: 52px 22px 40px; }
+  .reviews__mark { height: 48px; font-size: 110px; }
+
+  /* прайс: дві колонки — назва і ціна, під ними час і запис */
+  .price-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "name price" "time book";
+    gap: 6px 16px; padding: 16px 0; align-items: center;
+  }
+  .price-row__name { grid-area: name; grid-column: auto; }
+  .price-row__price { grid-area: price; grid-column: auto; grid-row: auto; align-self: start; padding-top: 2px; }
+  .price-row__time { grid-area: time; grid-column: auto; }
+  .price-row__book { grid-area: book; grid-column: auto; justify-self: end; padding: 6px 12px; font-size: 14px; }
+  .price-row__ru { font-size: 18px; }
+
+  /* картки майстрів: медальйон поруч з іменем, а не над ним */
+  .master { grid-template-columns: 68px minmax(0, 1fr); gap: 6px 16px; padding: 22px 18px; }
+  .master > .medallion--lg { width: 68px; font-size: 38px; grid-row: 1 / span 2; align-self: center; }
+  .master__body { display: contents; }
+  .master__body > .h3 { grid-column: 2; align-self: end; font-size: 30px; }
+  .master__body > .master__role { grid-column: 2; align-self: start; margin-top: 0; }
+  .master__body > :not(.h3):not(.master__role) { grid-column: 1 / -1; }
+  .master__body > .master__bio, .master__body > .mq:first-of-type { margin-top: 14px; }
+
+  /* роботи на сторінці майстрів */
+  .dir + .dir { margin-top: 64px; padding-top: 48px; }
+  .dir__head { margin-bottom: 28px; }
+  .work:nth-child(even) { margin-top: 32px; }
+  .works-grid { margin-bottom: 36px; }
+}
