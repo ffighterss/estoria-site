@@ -25,6 +25,8 @@ WA = "https://wa.me/35795772751"
 VIBER = "viber://chat?number=%2B35795772751"
 TEL, PHONE = "+35795772751", "+357 95 772751"
 IG = "https://instagram.com/estoria_limassol"
+# Адреса сайту: потрібна для картинки-превʼю в месенджерах (там потрібне повне посилання). Змінити, коли підключимо домен.
+SITE_URL = "https://estoria-site.pages.dev"
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"]
 
 # ---------------------------------------------------------------- услуги
@@ -322,8 +324,17 @@ def layout(page, title, desc, body):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{e(title)}</title>
   <meta name="description" content="{e(desc)}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Estoria Beauty Salon">
   <meta property="og:title" content="{e(title)}">
-  <meta property="og:image" content="img/photo10.webp">
+  <meta property="og:description" content="{e(desc)}">
+  <meta property="og:url" content="{SITE_URL}/{"" if page == "index.html" else page.removesuffix(".html")}">
+  <meta property="og:image" content="{SITE_URL}/img/og-logo.jpg">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:image:alt" content="Логотип Estoria beauty salon">
+  <meta name="twitter:card" content="summary">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <meta name="theme-color" content="#4E0001">
   <link rel="icon" href="{FAVICON}">
   <!-- ДЕМО: сайт скрыт от поисковиков. Убрать, когда сайт станет официальным (и удалить robots.txt) -->
