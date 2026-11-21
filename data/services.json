@@ -1,0 +1,877 @@
+[
+ {
+  "category": "Brows",
+  "name": "Коррекция бровей/Brow correction",
+  "price": "35 EUR",
+  "time": "35 м",
+  "id": "11561974"
+ },
+ {
+  "category": "Brows",
+  "name": "Ламинирование + коррекция+окрашивание бровей/Brow lamination + correction+tinting",
+  "price": "80 EUR",
+  "time": "1 ч 20 м",
+  "id": "11080052"
+ },
+ {
+  "category": "Brows",
+  "name": "Окрашивание бровей краской /Eyebrow tinting",
+  "price": "30 EUR",
+  "time": "35 м",
+  "id": "11079258"
+ },
+ {
+  "category": "Brows",
+  "name": "Прореживание бровей",
+  "price": "35 EUR",
+  "time": "1 ч",
+  "id": "17377025"
+ },
+ {
+  "category": "Brows",
+  "name": "Эпиляция лица воском ( 1 зона )/ Facial waxing (1 zone)",
+  "price": "10 EUR",
+  "time": "10 м",
+  "id": "17242584"
+ },
+ {
+  "category": "Face massage",
+  "name": "Face Lift massage / Моделирующий массаж лица",
+  "price": "60 EUR",
+  "time": "45 м",
+  "id": "11810048"
+ },
+ {
+  "category": "Face massage",
+  "name": "Facial lymphatic drainage / 5 sessions",
+  "price": "300 EUR",
+  "time": "1 ч 30 м",
+  "id": "11798582"
+ },
+ {
+  "category": "Face massage",
+  "name": "Gua sha Face massage + mask/ 1 session",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "11798660"
+ },
+ {
+  "category": "Face massage",
+  "name": "Gua sha Face massage + mask/ 5 sessions",
+  "price": "300 EUR",
+  "time": "1 ч",
+  "id": "11798700"
+ },
+ {
+  "category": "Face massage",
+  "name": "Sculptural Face Lift massage",
+  "price": "70 EUR",
+  "time": "45 м",
+  "id": "16685934"
+ },
+ {
+  "category": "Face massage",
+  "name": "Sculptural Face Lift massage / 5 sessions",
+  "price": "450 EUR",
+  "time": "45 м",
+  "id": "11810092"
+ },
+ {
+  "category": "Face massage",
+  "name": "Баночный массаж лица / Cupping facial massage",
+  "price": "70 EUR",
+  "time": "1 ч",
+  "id": "13845290"
+ },
+ {
+  "category": "Face massage",
+  "name": "Буккальный массаж лица / Buccal face massage",
+  "price": "80 EUR",
+  "time": "1 ч",
+  "id": "13845276"
+ },
+ {
+  "category": "Face massage",
+  "name": "Лимфодренажный массаж лица /Facial lymphatic drainage massage",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "11798318"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Airtouch (пряди выдуваются феном)",
+  "price": "400 EUR",
+  "time": "3 ч 30 м",
+  "id": "11025158"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Balayazh / shatush, highlighting + coloring of roots + toning 35cm (Баллаяж / шатуш, мелирование + окрашивание корней + тонирование)",
+  "price": "от 250 EUR",
+  "time": "3 ч",
+  "id": "11084488"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Balayazh / shatush, highlighting + coloring of roots + toning 45cm (Баллаяж / шатуш, мелирование + окрашивание корней + тонирование)",
+  "price": "от 300 EUR",
+  "time": "3 ч",
+  "id": "11084500"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Balayazh / shatush, highlighting + coloring of roots + toning 55cm (Баллаяж / шатуш, мелирование + окрашивание корней + тонирование)",
+  "price": "от 350 EUR",
+  "time": "4 ч",
+  "id": "11084508"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Balayazh / shatush, highlighting + coloring of roots + toning 65cm (Баллаяж / шатуш, мелирование + окрашивание корней + тонирование)",
+  "price": "от 400 EUR",
+  "time": "4 ч",
+  "id": "11084514"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Bangs haircut (Стрижка челки)",
+  "price": "от 40 EUR",
+  "time": "30 м",
+  "id": "11022886"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Bob haircut (Стрижка каре)",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "11023766"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Dye hair roots BLONDE (окрашивание корней для блонда)",
+  "price": "от 90 EUR",
+  "time": "2 ч",
+  "id": "11023322"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Dye hair roots/Окрашивание корней",
+  "price": "80 EUR",
+  "time": "1 ч 50 м",
+  "id": "11023340"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Hair toning 25cm (Тонирование)",
+  "price": "90 EUR",
+  "time": "2 ч",
+  "id": "11025088"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Hair toning 35cm (Тонирование)",
+  "price": "100 EUR",
+  "time": "2 ч",
+  "id": "11025102"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Hair toning 45cm (Тонирование)",
+  "price": "120 EUR",
+  "time": "2 ч",
+  "id": "11025114"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Hair toning 55cm (Тонирование)",
+  "price": "140 EUR",
+  "time": "2 ч 30 м",
+  "id": "11025120"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Hair toning 65cm (Тонирование)",
+  "price": "160 EUR",
+  "time": "2 ч 30 м",
+  "id": "11025124"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Haircut cascade (Стрижка каскад)",
+  "price": "от 85 EUR",
+  "time": "1 ч",
+  "id": "11023892"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Haircut ends with scissors (Стрижка кончиков ножницами)",
+  "price": "от 50 EUR",
+  "time": "50 м",
+  "id": "11024034"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Hot tool styling (Укладка горячим инструментом)",
+  "price": "60 EUR",
+  "time": "1 ч",
+  "id": "11023482"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Monochromatic coloring 25cm (Однотонное окрашивание)",
+  "price": "от 120 EUR",
+  "time": "2 ч",
+  "id": "11024964"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Monochromatic coloring 35cm (Однотонное окрашивание)",
+  "price": "от 140 EUR",
+  "time": "2 ч",
+  "id": "11024986"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Monochromatic coloring 45cm (Однотонное окрашивание)",
+  "price": "160 EUR",
+  "time": "2 ч",
+  "id": "11025024"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Monochromatic coloring 55cm (Однотонное окрашивание)",
+  "price": "180 EUR",
+  "time": "2 ч",
+  "id": "11025034"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Monochromatic coloring 65cm (Однотонное окрашивание)",
+  "price": "200 EUR",
+  "time": "2 ч",
+  "id": "11025042"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Olaplex уходовая процедура для волос Olaplex / Hair treatment Olaplex",
+  "price": "120 EUR",
+  "time": "1 ч 30 м",
+  "id": "13742028"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Out of the black (Светлее на 3-4 тона)",
+  "price": "350 EUR",
+  "time": "6 ч",
+  "id": "11028066"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Pixie haircut (Женская короткая стрижка)",
+  "price": "от 90 EUR",
+  "time": "1 ч",
+  "id": "11023866"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Scalp peeling/ Пилинг кожи головы",
+  "price": "от 50 EUR",
+  "time": "40 м",
+  "id": "11104832"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Strands in the top zone, contouring + toning 35 cm (Пряди в топ зоне, контуринг+тонирование)",
+  "price": "150 EUR",
+  "time": "3 ч",
+  "id": "11084382"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Strands in the top zone, contouring + toning 45 cm (Пряди в топ зоне, контуринг+тонирование)",
+  "price": "180 EUR",
+  "time": "3 ч",
+  "id": "11084398"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Strands in the top zone, contouring + toning 55 cm (Пряди в топ зоне, контуринг+тонирование)",
+  "price": "220 EUR",
+  "time": "3 ч",
+  "id": "11084402"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Strands in the top zone, contouring + toning 65 cm (Пряди в топ зоне, контуринг+тонирование)",
+  "price": "250 EUR",
+  "time": "3 ч",
+  "id": "11084408"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Super blonde (Осветление на 70% и более)",
+  "price": "250 EUR",
+  "time": "2 ч 30 м",
+  "id": "11027380"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Wash and blow-dry/Мойка и сушка Brushing (Укладка на брашинг)",
+  "price": "50 EUR",
+  "time": "1 ч",
+  "id": "11023442"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Вечерняя прическа/укладка /Evening coiffure/blow-dry",
+  "price": "80 EUR",
+  "time": "1 ч 30 м",
+  "id": "13166194"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Дневная/вечерняя укладка",
+  "price": "от 50 EUR",
+  "time": "1 ч",
+  "id": "22524484"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Кератин для волос",
+  "price": "200 EUR",
+  "time": "4 ч",
+  "id": "23568455"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Консультация",
+  "price": "1 EUR",
+  "time": "30 м",
+  "id": "17512771"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Лечение волос и кожи головы (Orising/Davines) / Hair and scalp treatment (Orising/ Davines)",
+  "price": "от 90 EUR",
+  "time": "1 ч",
+  "id": "12771560"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Мужская стрижка:классическая,площадка,спортивная,детская и все виды под стиль клиента",
+  "price": "40 EUR",
+  "time": "1 ч",
+  "id": "11762872"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Полировка волос/Hair polishing",
+  "price": "60 EUR",
+  "time": "1 ч",
+  "id": "23605901"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Стрижка кончиков под машинку / Haiscut ends with clippers",
+  "price": "40 EUR",
+  "time": "20 м",
+  "id": "17072823"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Уход Davines - \"Heart of Glass\"- Сияние блонда",
+  "price": "90 EUR",
+  "time": "1 ч 30 м",
+  "id": "20330961"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Уход Davines - \"Nourishing\" - Глубокое восстановление",
+  "price": "90 EUR",
+  "time": "1 ч 30 м",
+  "id": "20331527"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Уход Davines - \"Replumping\" - Увлажнение, Питание, Восстановление",
+  "price": "90 EUR",
+  "time": "1 ч 30 м",
+  "id": "20332017"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Уход Davines -\"Oi\" - Интенсивное питание",
+  "price": "90 EUR",
+  "time": "1 ч 30 м",
+  "id": "20331974"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Филировка кончиков волос",
+  "price": "30 EUR",
+  "time": "30 м",
+  "id": "11611456"
+ },
+ {
+  "category": "Hair / Волосы",
+  "name": "Холодное восстановление волос/Cold hair restoration",
+  "price": "100 EUR",
+  "time": "2 ч",
+  "id": "23635237"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Классическое наращивание ресниц / Classic Eyelash Extensions",
+  "price": "от 70 EUR",
+  "time": "1 ч 30 м",
+  "id": "22981735"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Креативные эффекты (медуза, аниме, стрелка) / Creative Styles (Medusa, Anime, Eyeliner Effect)",
+  "price": "от 20 EUR",
+  "time": "15 м",
+  "id": "22981754"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Ламинирование + окрашивание ресниц/Lamination+ colour eyelashes",
+  "price": "85 EUR",
+  "time": "1 ч 10 м",
+  "id": "11078874"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Объемное наращивание 1,5–2D / 1.5–2D Volume Eyelash Extensions",
+  "price": "от 80 EUR",
+  "time": "2 ч",
+  "id": "22981748"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Объемное наращивание 3D / 3D Volume Eyelash Extensions",
+  "price": "от 90 EUR",
+  "time": "2 ч",
+  "id": "22981749"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Объемное наращивание 4D / 4D Volume Eyelash Extensions",
+  "price": "от 100 EUR",
+  "time": "2 ч 30 м",
+  "id": "22981750"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Окрашивание ресниц/Eyelash colouring",
+  "price": "20 EUR",
+  "time": "30 м",
+  "id": "11080096"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Снятие ресниц без последующего наращивания / Eyelash Removal without Subsequent Extensions",
+  "price": "от 20 EUR",
+  "time": "30 м",
+  "id": "22981752"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Снятие чужой работы с последующим наращиванием / Removal from Another Technician with Subsequent Extensions",
+  "price": "от 10 EUR",
+  "time": "10 м",
+  "id": "22981751"
+ },
+ {
+  "category": "Lashes / Ресницы",
+  "name": "Эффект лучей или мокрый эффект / Kim K Style or Wet Effect",
+  "price": "от 10 EUR",
+  "time": "10 м",
+  "id": "22981753"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Дизайн ногтей / Nail design",
+  "price": "10 EUR",
+  "time": "20 м",
+  "id": "13493306"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Комплекс маникюр+гель лак и педикюр+гель лак/Complex manicure+gel polish and pedicure+gel polish",
+  "price": "150 EUR",
+  "time": "3 ч",
+  "id": "11448134"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Маникюр без покрытия /Classic manicure",
+  "price": "50 EUR",
+  "time": "40 м",
+  "id": "11021916"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Маникюр+гель лак+снятие/Manicure + gel polish+removal",
+  "price": "70 EUR",
+  "time": "1 ч 45 м",
+  "id": "11022218"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Маникюр+лак/Manicure+polish coating",
+  "price": "60 EUR",
+  "time": "1 ч 20 м",
+  "id": "11447954"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Мужской маникюр/Male manicure",
+  "price": "50 EUR",
+  "time": "40 м",
+  "id": "11022010"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Мужской педикюр/Male pedicure",
+  "price": "70 EUR",
+  "time": "1 ч",
+  "id": "11104862"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Наращивание 1 ногтя/ 1 nail extension",
+  "price": "от 10 EUR",
+  "time": "20 м",
+  "id": "19303771"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Наращивание ногтей (коррекция) /Nail extensions (correction)",
+  "price": "120 EUR",
+  "time": "2 ч",
+  "id": "13538638"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Педикюр женский без покрытия /Pedicure women's",
+  "price": "60 EUR",
+  "time": "50 м",
+  "id": "11022670"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Педикюр только ногти+гель лак/Pedicure only toenails+gel shellac",
+  "price": "70 EUR",
+  "time": "1 ч",
+  "id": "11598334"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Педикюр только пальцы/Pedicure only toenails",
+  "price": "50 EUR",
+  "time": "35 м",
+  "id": "11616748"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Педикюр+лак/Pedicure+polish coating",
+  "price": "70 EUR",
+  "time": "2 ч",
+  "id": "11749608"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Педикюр+снятие+гель лак/Pedicure +removal+gel shellac",
+  "price": "80 EUR",
+  "time": "1 ч 30 м",
+  "id": "11104896"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Ремонт 1 ногтя/Repair 1 nail",
+  "price": "5 EUR",
+  "time": "20 м",
+  "id": "11448018"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Снятие гель лака/Removing shellac",
+  "price": "15 EUR",
+  "time": "20 м",
+  "id": "11448008"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Удаление трещин и мозолей /сложные стопы",
+  "price": "30 EUR",
+  "time": "1 ч",
+  "id": "22625999"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Укрепление ногтей гель / маникюр/ снятие Strengthening nails builder gel",
+  "price": "80 EUR",
+  "time": "2 ч",
+  "id": "13148638"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Французский+маникюр+ гель лак/French+ manicure",
+  "price": "80 EUR",
+  "time": "2 ч 30 м",
+  "id": "11448030"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Комплекс «маникюр+педикюр» без покрытия в 4 руки",
+  "price": "120 EUR",
+  "time": "2 ч 30 м",
+  "id": "23635063"
+ },
+ {
+  "category": "Nails / Ногти",
+  "name": "Комплекс «маникюр+педикюр» с покрытием гель-лаком в 4 руки",
+  "price": "150 EUR",
+  "time": "2 ч 30 м",
+  "id": "23635057"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Face Lift massage + mask / Моделирующий массаж лица + маска",
+  "price": "80 EUR",
+  "time": "1 ч",
+  "id": "16034920"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "OFFER!!!!Горячими камнями массаж / Hot stone massage",
+  "price": "90 EUR",
+  "time": "1 ч 30 м",
+  "id": "13493768"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Offer!!!/Абонемент: 5 процедур по 1ч. Антицеллюлитный массаж/5 sessions by 1h. Anti-cellulite massage",
+  "price": "405 EUR",
+  "time": "1 ч",
+  "id": "16373374"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Offer!!!/Абонемент: 5 процедур по 1ч. Расслабляющий массаж/5 sessions by 1h. Relax massage",
+  "price": "350 EUR",
+  "time": "1 ч",
+  "id": "16373422"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Offer!!!/Абонемент: 5 процедур по 30 мин. Массаж спины/5 sessions by 30 мин. Back massage",
+  "price": "300 EUR",
+  "time": "30 м",
+  "id": "19926410"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Offer!!!/Абонемент:10 процедур по 1, 30ч. Лимфодренажный массаж/10 sessions by 1, 30h. limphatic drainage massage",
+  "price": "800 EUR",
+  "time": "1 ч 30 м",
+  "id": "16373560"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Offer!!!/Абонемент:10 процедур по 1ч. Лимфодренажный массаж/10 sessions by 1h. limphatic drainage massage",
+  "price": "650 EUR",
+  "time": "1 ч",
+  "id": "11679164"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Offer!!!/Абонемент:10 процедур по 1ч.30мин. Терапевтический массаж/10 sessions by 1h.30min. Therapeutic massage",
+  "price": "800 EUR",
+  "time": "1 ч 30 м",
+  "id": "16373694"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Антицеллюлитный массаж/Anti-cellulite massage",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "11080192"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Ароматерапия/Aromatherapy",
+  "price": "50 EUR",
+  "time": "1 ч",
+  "id": "11080286"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Детский массаж/Kids massage",
+  "price": "50 EUR",
+  "time": "30 м",
+  "id": "11080308"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Лимфодренажный массаж/Limphatic drainage massage",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "11448176"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Массаж головы и воротниковой зоны/Head and shoulders massage",
+  "price": "70 EUR",
+  "time": "40 м",
+  "id": "12106124"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Массаж для БЕРЕМЕННЫХ",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "18642462"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Массаж ног/Feet massage",
+  "price": "70 EUR",
+  "time": "30 м",
+  "id": "12106110"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Массаж спины/Back massage",
+  "price": "50 EUR",
+  "time": "40 м",
+  "id": "11448186"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Массаж тела+лицо/Face+body massage",
+  "price": "130 EUR",
+  "time": "1 ч 30 м",
+  "id": "12311546"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Медовый массаж / Honey massage",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "17818280"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Расслабляющий массаж/Relax massage",
+  "price": "70 EUR",
+  "time": "1 ч",
+  "id": "11080280"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Спортивный массаж/Sport massage",
+  "price": "130 EUR",
+  "time": "1 ч 30 м",
+  "id": "13397108"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Терапевтический массаж",
+  "price": "от 135 EUR",
+  "time": "1 ч 30 м",
+  "id": "22401631"
+ },
+ {
+  "category": "Массажи, Тело / Massages, Body",
+  "name": "Терапевтический массаж/Therapeutic massage",
+  "price": "90 EUR",
+  "time": "1 ч",
+  "id": "11080226"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "New!!!!Обертывание в термоодеяло (сауна)",
+  "price": "50 EUR",
+  "time": "1 ч",
+  "id": "18649166"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Антицеллюлитное обёртывание из листьев ламинарии",
+  "price": "от 120 EUR",
+  "time": "2 ч",
+  "id": "18564563"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Антицеллюлитный массаж + скраб + обёртывание",
+  "price": "150 EUR",
+  "time": "2 ч",
+  "id": "18564772"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Водорослевое обертывание для повышения упругости и эластичности кожи + скраб + массаж",
+  "price": "от 130 EUR",
+  "time": "2 ч",
+  "id": "18564672"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Грязе-солевое обертывание против отеков и целлюлита + Скраб + Массаж",
+  "price": "160 EUR",
+  "time": "2 ч",
+  "id": "18564690"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Лимфодренажный (Detox) Массаж + Скраб + Обертывание",
+  "price": "120 EUR",
+  "time": "2 ч",
+  "id": "18564698"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Мощное жиросжигающие обертывание + скраб + массаж",
+  "price": "190 EUR",
+  "time": "2 ч",
+  "id": "18564712"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Обертывание + скраб (Body Wrap + Body Scrub)",
+  "price": "70 EUR",
+  "time": "1 ч",
+  "id": "18478820"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Обертывание в термоодеяло (сауна) + массаж лица",
+  "price": "120 EUR",
+  "time": "30 м",
+  "id": "18649235"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Обертывание в термоодеяло (сауна) + Скраб",
+  "price": "120 EUR",
+  "time": "40 м",
+  "id": "18649208"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Общий Глубокий Массаж + Скраб + Обертывание (Deep Tissue Massage + Full Body Scrub + Body Wrap)",
+  "price": "150 EUR",
+  "time": "2 ч",
+  "id": "18478880"
+ },
+ {
+  "category": "Спа Процедуры/ Spa Procedures",
+  "name": "Холодное/горячее обёртывание сухими водорослями ламинария + скраб + массаж",
+  "price": "от 120 EUR",
+  "time": "2 ч",
+  "id": "18564765"
+ }
+]

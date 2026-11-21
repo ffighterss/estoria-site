@@ -1,0 +1,156 @@
+    <!-- Первый экран -->
+    <section class="hero">
+      <div class="hero__panel velvet">
+        <div class="frame frame--light hero__frame" aria-hidden="true">
+          <svg class="corner corner--tl"><use href="#corner"/></svg><svg class="corner corner--tr"><use href="#corner"/></svg>
+          <svg class="corner corner--bl"><use href="#corner"/></svg><svg class="corner corner--br"><use href="#corner"/></svg>
+        </div>
+        <svg class="olive olive--hero-top" aria-hidden="true"><use href="#olive"/></svg>
+        <svg class="olive olive--hero-bottom" aria-hidden="true"><use href="#olive"/></svg>
+        <div class="hero__inner">
+          <h1 class="hero__title">
+            <span class="hero__script">Estoria</span>
+            <span class="hero__sub">beauty salon</span>
+          </h1>
+          <p class="hero__lead">Маникюр и педикюр, брови и ресницы, волосы, массаж и СПА в Лимассоле</p>
+          <p class="hero__hours">Ежедневно с 9:00 до 20:00, рядом с Trilogy</p>
+          <div class="hero__actions">
+            <a class="btn btn--butter" href="{{BOOK}}" target="_blank" rel="noopener">Записаться онлайн</a>
+            <a class="btn btn--line" href="services.html">Услуги и цены</a>
+          </div>
+          <a class="hero__rating" href="reviews.html">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            4,8 из 5 по {{RCOUNT}} отзывам в Google
+          </a>
+        </div>
+      </div>
+      <figure class="hero__photo">
+        <img src="img/photo10.webp" alt="Миндальный маникюр с сухоцветами, работа мастера Estoria" width="1588" height="1600" fetchpriority="high">
+      </figure>
+    </section>
+
+    <!-- Услуги: коротко, полный прайс — на отдельной странице -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <header class="head">
+        <h2 class="h2" id="services-title">Услуги</h2>
+        <p class="head__text">Все процедуры салона с ценами и временем — на странице <a class="link" href="services.html">услуг и цен</a>.</p>
+      </header>
+
+      <article class="service">
+        <figure class="window"><img src="img/photo3.webp" alt="Маникюр и педикюр в пастельных тонах" width="1200" height="1600" loading="lazy"></figure>
+        <div class="service__text">
+          <h3 class="h3">Маникюр и педикюр</h3>
+          <p>Аккуратная форма и покрытие, которое носится неделями.</p>
+          <ul class="list">
+            {{SERVICES:11022218,11104896,23635057}}
+          </ul>
+          <a class="btn btn--line-wine" href="services.html#nails">Все цены на маникюр и педикюр</a>
+        </div>
+      </article>
+
+      <article class="service service--reverse">
+        <figure class="window"><img src="img/photo5.webp" alt="Ресницы до и после ламинирования" width="792" height="1280" loading="lazy"></figure>
+        <div class="service__text">
+          <h3 class="h3">Брови и ресницы</h3>
+          <p>Выразительный взгляд без ежедневного макияжа.</p>
+          <ul class="list">
+            {{SERVICES:11080052,11078874,22981735}}
+          </ul>
+          <a class="btn btn--line-wine" href="services.html#brows">Все цены на брови и ресницы</a>
+        </div>
+      </article>
+
+      <article class="service">
+        <figure class="window"><img src="img/hair-2.webp" alt="Длинные волосы после окрашивания в салоне Estoria" width="1200" height="1600" loading="lazy"></figure>
+        <div class="service__text">
+          <h3 class="h3">Волосы</h3>
+          <p>Стрижки, сложное окрашивание, блонд и уход Davines.</p>
+          <ul class="list">
+            {{SERVICES:11023766,11025088,11025158}}
+          </ul>
+          <a class="btn btn--line-wine" href="services.html#hair">Все цены на волосы</a>
+        </div>
+      </article>
+
+      <article class="service service--reverse">
+        <figure class="window"><img src="img/massage-1.webp" alt="Массаж тела в салоне Estoria" width="720" height="1280" loading="lazy"></figure>
+        <div class="service__text">
+          <h3 class="h3">Массаж и СПА</h3>
+          <p>Массаж тела и лица, обёртывания и программы с курсом процедур.</p>
+          <ul class="list">
+            {{SERVICES:11080280,13493768,18564698}}
+          </ul>
+          <a class="btn btn--line-wine" href="services.html#body">Все цены на массаж и СПА</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Мастера -->
+    <section class="masters velvet scallop" id="masters" aria-labelledby="masters-title">
+      <svg class="olive olive--masters-l" aria-hidden="true"><use href="#olive"/></svg>
+      <svg class="olive olive--masters-r" aria-hidden="true"><use href="#olive"/></svg>
+      <h2 class="h2 h2--light" id="masters-title">Мастера</h2>
+      <p class="masters__note">Нажмите на имя, чтобы посмотреть работы и записаться</p>
+      <ul class="medallions">
+{{MEDALLIONS}}
+      </ul>
+    </section>
+
+    <!-- Работы -->
+    <section class="works" id="works" aria-labelledby="works-title">
+      <header class="head">
+        <h2 class="h2" id="works-title">Работы мастеров</h2>
+        <p class="head__text">Больше работ и мастеров — на странице <a class="link" href="masters.html">мастеров и работ</a> и в Instagram <a class="link" href="https://instagram.com/estoria_limassol" target="_blank" rel="noopener">@estoria_limassol</a></p>
+      </header>
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--arch"><img src="img/photo8.webp" alt="Нюдовый маникюр с мерцанием" width="1400" height="1750" loading="lazy"><figcaption>Маникюр</figcaption></figure>
+        <figure class="gallery__item gallery__item--low"><img src="img/brows-1.webp" alt="Брови до и после ламинирования и коррекции" width="900" height="1200" loading="lazy"><figcaption>Брови до и после</figcaption></figure>
+        <figure class="gallery__item gallery__item--arch"><img src="img/hair-4.webp" alt="Блонд в технике AirTouch" width="540" height="960" loading="lazy"><figcaption>Блонд AirTouch</figcaption></figure>
+        <figure class="gallery__item gallery__item--low"><img src="img/photo2.webp" alt="Ресницы после ламинирования" width="1400" height="1400" loading="lazy"><figcaption>Ламинирование ресниц</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews velvet scallop" id="reviews" aria-labelledby="reviews-title">
+      <div class="reviews__card">
+        <div class="frame frame--light" aria-hidden="true">
+          <svg class="corner corner--tl"><use href="#corner"/></svg><svg class="corner corner--tr"><use href="#corner"/></svg>
+          <svg class="corner corner--bl"><use href="#corner"/></svg><svg class="corner corner--br"><use href="#corner"/></svg>
+        </div>
+        <h2 class="reviews__title" id="reviews-title">Отзывы гостей</h2>
+        <span class="reviews__mark" aria-hidden="true">“</span>
+        <div class="quotes__viewport" aria-live="polite">
+{{QUOTES}}
+        </div>
+        <div class="quotes__nav">
+          <button class="round" id="qPrev" aria-label="Предыдущий отзыв">‹</button>
+          <span class="quotes__count"><span id="qNow">1</span> из {{QCOUNT}}</span>
+          <button class="round" id="qNext" aria-label="Следующий отзыв">›</button>
+        </div>
+      </div>
+      <p class="reviews__score">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        4,8 из 5 по {{RCOUNT}} отзывам в Google
+        <a class="link link--light" href="reviews.html">Читать все отзывы</a>
+      </p>
+    </section>
+
+    <!-- Как нас найти -->
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="visit__text">
+        <h2 class="h2" id="visit-title">Как нас найти</h2>
+        <dl class="visit__list">
+          <div><dt>Адрес</dt><dd>Spiridonos Lamprou 13a, Лимассол<br>рядом с Trilogy</dd></div>
+          <div><dt>Часы работы</dt><dd>Ежедневно<br>с 9:00 до 20:00</dd></div>
+          <div><dt>Телефон</dt><dd><a href="tel:+35795772751">+357 95 772751</a></dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://instagram.com/estoria_limassol" target="_blank" rel="noopener">@estoria_limassol</a></dd></div>
+        </dl>
+        <div class="visit__actions">
+          <a class="btn btn--wine" href="{{BOOK}}" target="_blank" rel="noopener">Записаться онлайн</a>
+          <a class="btn btn--line-wine" href="contacts.html">Все контакты</a>
+        </div>
+      </div>
+      <figure class="window window--map">
+        <iframe title="Estoria на карте: Spiridonos Lamprou 13a, Лимассол" loading="lazy" src="https://maps.google.com/maps?q=34.6879603,33.0573689&amp;z=16&amp;output=embed"></iframe>
+      </figure>
+    </section>

@@ -1,0 +1,80 @@
+# Автообновление сайта Estoria.
+# Каждые 6 часов забирает услуги, цены и мастеров из DIKIDI, раз в неделю — отзывы из Google,
+# пересобирает страницы и публикует сайт на GitHub Pages.
+# Салон ничего здесь не трогает: всё меняется в кабинете DIKIDI.
+name: Обновить сайт
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"      # каждые 6 часов
+  workflow_dispatch:             # кнопка «Run workflow» — обновить сейчас
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить зависимости
+        run: pip install requests==2.32.3 pillow==11.0.0
+
+      - name: Забрать услуги и мастеров из DIKIDI
+        # если DIKIDI временно недоступен, сайт соберётся из последних сохранённых данных
+        continue-on-error: true
+        run: python3 src/import_dikidi.py
+
+      - name: Обновить отзывы из Google (по понедельникам, если задан ключ)
+        continue-on-error: true
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ -n "$GOOGLE_MAPS_API_KEY" ] && { [ "$(date -u +%u)" = "1" ] || [ "$EVENT" = "workflow_dispatch" ]; }; then
+            python3 src/get_reviews.py "Estoria Beauty Salon Spiridonos Lamprou 13a Limassol" data/reviews.json
+          else
+            echo "Отзывы не обновляем в этот раз"
+          fi
+
+      - name: Собрать страницы
+        run: python3 src/build.py
+
+      - name: Сохранить свежие данные в репозиторий
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site
+          git diff --cached --quiet || git commit -m "Автообновление данных из DIKIDI"
+          git push || true
+
+      - name: Подготовить файлы для публикации
+        run: python3 src/dist.py site dist
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
